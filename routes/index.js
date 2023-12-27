@@ -34,7 +34,9 @@ router.get('/showcategory', categorycontroller.showcategory);
 router.post('/addsubcategory', usercontroller.sequre, subcategorycontroller.addsubcategory);
 router.get('/deletesubcategory', subcategorycontroller.deletesubcategory);
 router.post('/updatesubcategory', usercontroller.sequre, subcategorycontroller.updatesubcategory);
-router.get('/showsubcategory', subcategorycontroller.showsubcategory);
+
+
+get('/showsubcategory', subcategorycontroller.showsubcategory);
 
 //topic
 router.post('/addtopic', usercontroller.sequre, topiccontroller.addtopic);
